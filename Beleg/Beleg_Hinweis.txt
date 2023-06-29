@@ -1,0 +1,92 @@
+last page:
+
+* Aufgabe 1
+- Vorlage: DXTR1000
+- Bruttogewicht: 8510 g
+- Nettogewicht: 8510 g
+- Steuerklassifikation: 1 - volle Steuer
+- Meldebestand: 100
+- Material: MB80287
+
+* Aufgabe 2
+- erst als Debitor anlegen
+- Geschäftspartner: GL80287, richtig: DL80287
+- Kundenbezezirk entsperren, -> Vertrieb, dann Daten Vertriebsbereich eingeben
+- Kundenbezirk: Bezirk Nord
+- Kundengruppe: Handel
+- Verkaufsbüro: Hamburg
+- Verkäufergruppe: DE
+- Steuerklassifikation: steuerpflichtig
+
+* Aufgabe 3
+- GP, Rolle ändern -> Lieferant
+- Einkauf oben rechts wählen
+
+* Aufgabe 4: Bestellanforderung
+Belegnr: 0010000206
+
+* Aufgabe 5: Anfragen senden
+Belegnr 1 (Bumpy Bike): 60000000411
+Belegnr 2 (Markenräder): 6000000412
+
+* Aufgabe 6: Angebot pflegen, Preis eingeben
+
+* Aufgabe 7: Bestellung
+Belegnr: 4500000230
+
+* Aufgabe 8: Wareneingang
+Belegnr: 5000000258
+
+* Aufgabe 9: Rechnung verbuchen
+Belegnr: 5105600245
+
+* Aufgabe 10: Zahlungsausgang verbuchen
+Belegnr: 1500000331
+
+* Aufgabe 11:
+D.4.8.1 Lagerbestand
+
+* Aufgabe 13: Kundenanfrage anlegen (E.4.1)
+Wunschlieferdatum: 04.07.2023
+Nettowert: 3115,20 EUR
+Belegnummer: 10000238
+
+* Aufgabe 14: Angebot erzeugen (E.4.2)
+Wunschlieferdatum: 31.07.2023
+ErwAuftragswert: 7268,80 EUR
+Belegnummer: 20000156
+
+* Aufgabe 15: Terminauftrag (TA) erzeugen (E.4.3)
+Belegnummer: 204
+
+* Aufgabe 16: Anforderung der Anzahlung (B.1.1)
+Fällig am: 06.07.2023
+Belegnummer: 1400000835
+
+* Aufgabe 17: Zahlungseingang der Anzahlung (B.1.2)
+Belegnummer: 1400000836
+
+* Aufgabe 18: Warenausgang verbuchen (E.4.7)
+- erst: Lieferung auslösen (E.4.6)
+Selektionsdatum = Wunschlieferungsdatum Kundenanfrage = 04.07.2023
+Belegnummer Auslieferung: 80000133
+
+Belegnummer Warenausgang: 80000133 (gleich)
+
+* Aufgabe 19: Faktura anlegen (E.4.8)
+Belegnummer: 90000132
+
+* Aufgabe 20: in Faktura Beleg anschauen (E.4.8)
+Belegnummer: 0090000123 Buchhaltungsbeleg
+
+* Aufgabe 21: Verrechnung der Anzahlung
+Rechnungsbezug: 90000123
+Belegnummer: 1600000177
+
+* Aufgabe 22: Zahlungseingang (B.1.5)
+Betrag: falscher Wert, statt 11636,20 EUR -> 10446,20 EUR
+Belegnummer: 1400000837
+
+* Aufgabe 23: Transaktionscode
+Mehr -> System -> Status
+FD11
