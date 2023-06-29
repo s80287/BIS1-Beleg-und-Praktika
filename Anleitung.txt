@@ -1,0 +1,23 @@
+* last page:
+
+Passwort: inpacpwd
+Mandant: 20
+
+* SAP Logon
+Mandant: 224
+SAP-Login: IW21-013
+Transactionscode: SU13
+
+
+VMware Workstation
+VM(E:) -> VM -> LV-Munkelt -> VM-Inpac
+
+* VM langsam: Anzeigeeinstellung -> 1024 x 768
+
+* Inpac schließen: Datei -> Inpac schließen
+
+* FA := Fertigungsauftrag
+
+* Fehler: Inpac schließen, neustarten
+
+* Rechte Maus neu nicht vorhanden, plus-Knopf oben links drücken

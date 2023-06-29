@@ -1,0 +1,79 @@
+* 1.4:
+Stammdaten bei Artikel
+Kalkulation
+Kalkulationspreis: 1382,5543 € pro Stück
+
+* 3
+** 3.1. Anlegen e. Angebots an Kunden
+- Technologie: Halbfabrikate (HF) ändern 
++ erst HF anlegen, dann löschen
++ doppelklicken, Pos-Nr. -> löschen, dann neu
+
+- neuer Preis: Kalkulation -> Standardkalkulation -> neu kalkulieren
+neuer Preis pro Einheit: 1611,6628 Euro/Stück
+
+- Kunde wählen:
+Kundennummer aus Stammdaten -> Kunden kopieren, auf Kunde (im Angebot) hinzufügen
+
+- neuen Standardpreis auf Einzelpreis selbst kopieren
+
+Angebot-Nr.: 2200014
+
+** 3.2. Anlegen d. Kundenbestellung
+Bestell-Nr.: 2300016
+
+** 3.3. Vorgang
+Vorgangsnr: 5000031
+Vorgangsnr im Angebot eintragen
+
+** 3.4. Anlegen des Kundenauftrages
+Auftragsnr: 3200027
+Auftragsbestätigung: drucken (Seitenansicht)
+
+Liefertermin eintragen, FS-Termin automatisch ausgefüllt
+
+** 4.1. Fertigungsauftragsverwaltung
+FA-Nr.: 26, 27
+-> := gekauft, co le := selbst hergestellt
+
+** 4.2. d. Vertaktung
+Resource wählen, Eintrag wählen, rechte Maus, Fertigungsschrittpositionierung
+
+** 4.3. a. Materialdisposition
+Programmbildschirm vergrößern, Button unter in der Mitte
+
+** 4.3. b. Materialbestellungen
+- Auftrag nicht wissen -> nachschlagen in Vorgangsverwaltung -> Vorgänge -> 
+Struktur aktualisieren -> Fertigungsaufträge
+- Für diesen Fall nur dem Auftrag 3200027 zuordnen
+- !nicht vergessen: Drucken (Seitenansicht)
+
+3 Bestellungen
+Bestellnr.: 600010 600009 600008
+
+** 4.4. Buchung der Materialeingänge
+Fachabteilung: Materialwirtschaft
+
+Eingänge für separate Bestellungen herstellen
+
+!Fehler: 1 Eingang für 3 Bestellungen, nicht stonierbar, einfach weitermachen
+
+3 Eingänge
+Eingangsnr.: 1000025 1000026 1000027
+
+** 4.5. Eingang der Rechnungen
+- !nicht vergessen: Drucken (Seitenansicht)
+Drucken -> Druckvorlage: MW Eingangsrechnung
+
+nicht in der Vorgänge verfügbar -> Verknüpfungen fehlen -> nicht so schlimm
+
+Fachabteilung: Finanzbuchhaltung
+Rechnungsnr.: 2 3 4
+
+
+* 5. Realisierung der Produktion / Fertigung / Rückmeldung der Fertigung
+** 5.1. Buchen der Materialanforderung aus dem Lager
+Fachabteilung: Produktion
+
+
+

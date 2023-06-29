@@ -1,0 +1,404 @@
+last page:
+
+* SAP
+** Praktikum 1
+*** Daten
+- Daten ändern: Land DE
+
+*** Hilfe: Help Portal
+
+*** Suchen
+- wildcard: *Text*
+
+*** Steuerverbindlichkeiten
+
+A.1.
+- Sacharbeiter
+
+A.2. Buchung Kreditor
+Rechnungsdaten: heute - 2 Tage
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+A.2.4. Posten anzeigen
+Auswahl der Posten -> Status -> Alle Posten
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+A.3. Debitor anlegen
+GP -> Organisation
+Allg. Daten -> Debitor: allg. Daten -> Kreditor (umgenannt zum Lieferant)
+Buchungskreis -> Umschalten zu Ändern
+Buchungskreis DE00
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+A.4. Buchung Debitor
+A.4.1. Rechnungsausgang
+Belegnummer: 1800000220
+Sacharbeiter: Anna Wagner (Buchhalter)
+Beleg Fehlermeldung Steuerbetrag falsch: 252 Euro statt 0
+Richtig? Wo ändern? Steuerrechnen haken nicht vergessen
+
+A.4.2. Zahlungseingang
+Belegnummer: 1400000320
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+A.5. Buchung der Verrechnung Debitor mit Kreditor
+A.5.1. Stammdaten anlegen
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+A.5.2. Buchung
+Belegnr (KR): 1900000302
+Belegnr (DR): 1800000281
+Belegnr (ZE): 1400000414
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+A.6. Kontoanalyse
+Sacharbeiter: Sabine Wolf (Ableitungsleiterin)
+
+A.7. Steuer
+Abziehbare Vorsteuer (kumulierter Saldo): 278666,63
+Umsatzsteuer (kumulierter Saldo): -244994,33
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+----------------------------------------------------------------
+
+B. FIBU
+
+B.1. Anforderung
+B.1.1. Anforderung der Anzahlung
+Belegnr: 1400000423
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+B.1.2. Zahlungseingang
+Belegnr: 1400000424
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+B.1.3. Rechnungsausgang an Debitor
+Saldenanzeige Mehrwertsteuerkonto
+Sachkontobzeichnung im Buchungskreis, Umsatzsteuer 
+
+Belegnr: 1800000331
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+B.1.4. Verrechnung der Anzahlung
+Offene Posten
+Skonto rot: doppelt klicken (Posten aktivieren/inaktivieren)
+Belegnr: 1600000091
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+B.1.5. Zahlungseingang des Restbetrages
+Belegnr: 1400000523
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+----------------------------------------------------------------
+
+C. Modul CO
+
+C.1. Stammdaten für die Kostenstelle anlegen
+Sacharbeiter: Martin Schulze (MA Controlling)
+
+C.1.1. Kostenstellenhierarchie
+Sacharbeiter: Martin Schulze (MA Controlling)
+
+C.2. Planung
+C.2.1. Kostenstellenetats planen
+Sacharbeiter: Martin Schulze (MA Controlling)
+
+C.2.2. Kosten planen
+Sacharbeiter: Martin Schulze (MA Controlling)
+
+C.2.3. Leistungserbringung planen
+Sacharbeiter: Martin Schulze (MA Controlling)
+
+C.3. Ist-Erfassung
+C.3.1. Buchung der Ist-Kosten für Miete und Versicherung
+Belegnr: 100000124
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+C.3.2. Buchung der Ist-Kosten im Bereich Warenausgang
+Belegnr: 4900032113
+Sacharbeiter: Niclas Feldmann (Lagerist)
+
+C.3.3. Buchung der Leistungserbringung
+Belegnr: 300000453
+Sacharbeiter: Martin Schulze (MA Controlling)
+
+C.4. Analyse
+C.4.1. Vergleich der Plan-Ist-Werte
+Sacharbeiter:
+Anna Wagner (Buchhalter) od.
+Sabine Wolf (Ableitungsleiterin)
+
+C.4.2. Ausschöpfung des Etats
+Sacharbeiter:
+Anna Wagner (Buchhalter) od.
+Sabine Wolf (Ableitungsleiterin)
+
+C.4.3. Einzelposten-Analyse
+Sacharbeiter:
+Anna Wagner (Buchhalter) od.
+Sabine Wolf (Ableitungsleiterin)
+
+----------------------------------------------------------------
+
+D. Modul MM - Materialwirtschaft
+D.1. Materialstamm
+Sacharbeiter: Viktor Meyer (MA Einkauf)
+
+D.2. Lieferantenstamm
+Sacharbeiter: Viktor Meyer (MA Einkauf)
+
+D.3. Orderbuch
+Sacharbeiter: Viktor Meyer (MA Einkauf)
+
+D.4. Beschaffungskette
+D.4.1. BANF anlegen
+Belegnr: 0010000087
+Sachbearbeiter: Viktor Meyer (MA Einkauf)
+
+D.4.2. Lieferanten ermitteln
+M80287: Lieferantennr: KM80287, Lieferanten-Name: MyLock Nguyen GmbH
+M99999: Lieferantennr: K01020, Lieferanten-Name: Markenräder Norddeutschland GmbH
+M99999: Lieferantennr: K01030, Lieferanten-Name: Zweirad Profi Brüder Hansen GmbH
+Sacharbeiter: Viktor Meyer (MA Einkauf)
+
+D.4.3. Anfragen senden
+Lieferdatum: 13.07.2023 (7 Wochen von 25.05.2023)
+Belegnummer: 6000000215 Lieferant: KM80287
+Belegnummer: 6000000218 Lieferant: K01020
+Belegnummer: 6000000219 Lieferant: K01030
+Sachbearbeiter: Viktor Meyer (MA Einkauf)
+
+D.4.4. Angebote erhalten
+Sachbearbeiter: Viktor Meyer (MA Einkauf)
+
+D.4.5. Preisspiegel erstellen
+Sacharbeiter: Viktor Meyer (MA Einkauf)
+
+D.4.6. Einkaufsinfosatz anlegen
+Belegnr: 5300000116
+Sachbearbeiter: Viktor Meyer (MA Einkauf)
+
+D.4.7. Bestellung auslösen
+Belegübersicht einschalten
+
+Belegnr: 4500000103
+Sachbearbeiter: Viktor Meyer (MA Einkauf)
+
+D.4.7.1. Auswertung der Bestellung
+Sacharbeiter: Viktor Meyer (MA Einkauf)
+
+D.4.8. Wareneingang verbuchen
+Material x2 gebucht -> Rechnung anpassen
+
+Belegnr: 5000000113, 4900032113
+Sacharbeiter: Viktor Meyer (MA Einkauf)
+
+D.4.8.1. Lagerbestand
+Sacharbeiter: Viktor Meyer (MA Einkauf)
+
+D.4.9. Rechnung verbuchen
+Logistik-Rechnungsprüfung
+Belegsnr: 5105600159
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+Rechnungsbeleg anzeigen
+Belegsnr: 5105600159
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+D.4.10. Zahlungsausgang verbuchen
+Belegsnr: 1500000248
+Sacharbeiter: Anna Wagner (Buchhalter)
+
+-----------------------------------------------------
+E. Modul SD -Vertrieb
+E.1. Erweiterung der Geschäftspartnerstammdaten
+Geschäftspartnerstammdaten - Vertrieb
+Sacharbeiter: Nina Rudy (MA Verkauf)
+
+Ansprechpartner
+Sacharbeiter: Nina Rudy (MA Verkauf)
+
+E.2. Erweiterung der Materialstammdaten
+Sacharbeiter: Niclas Feldmann (Lagerist)
+
+E.3. Konditionen und Staffeln
+E.3.1. Konditionen festlegen
+Sacharbeiter: Nina Rudy (MA Verkauf)
+
+E.3.2. Staffelung festlegen
+Sacharbeiter: Nina Rudy (MA Verkauf)
+
+E.4. Belegfluss im Vertrieb
+E.4.1. Kundenanfrage anlegen
+Wunschlieferdatum: 06.06.2023
+Nettowert: 1264,20
+
+Abschlag: von Preis reduziert
+Abschlag 1: K004, 10 Stück bestellen
+Abschlag 2: K020, neuer Kunde
+Belegnummer: 10000099
+Sachbearbeiter: Nina Rudy (MA Verkauf)
+
+E.4.2. Angebot erzeugen
+Belegnummer: 20000055
+Sachbearbeiter: Nina Rudy (MA Verkauf)
+
+E.4.3. Terminauftrag erzeugen
+Belegnummer: (VMI) 88
+Sachbearbeiter: Nina Rudy (MA Verkauf)
+
+E.4.4. Bestellung auslösen
+Belegnummer: 4500000128
+Sachbearbeiter: Nina Rudy (MA Verkauf)
+
+E.4.5. Wareneingang verbuchen
+Belegnummer: 5000000144
+Sachbearbeiter: Niclas Feldmann (Lagerist)
+
+E.4.6. Lieferung auslösen
+Belegnummer: 80000047
+Sachbearbeiter: Viktor Meyer (MA Einkauf)
+
+E.4.7. Warenausgang verbuchen
+Belegnummer: 80000047
+Sachbearbeiter: Niclas Feldmann (Lagerist)
+
+E.4.8. Faktura anlegen
+Belegnummer: 9000049
+Sachbearbeiter: Nina Rudy (MA Verkauf)
+Belegnummer: A000PNK00
+
+E.4.9. Zahlungseingang verbuchen
+Belegnummer: 1400000615
+Sachbearbeiter: Anna Wagner (Buchhalter)
+
+---------------------------------------------------
+
+E.5. Variationen im Vertriebsprozess
+E.5.1. Kundenstammdaten aktualisieren
+wechseln zum Kunde -> Vertrieb
+Sachbearbeiter: Nina Rudy (MA Verkauf)
+
+E.5.2. Anfrage anlegen
+Abschlag 1: K004 Material -20,00 €
+Abschlag 1: K020 Preisgruppe -7,00 %
+Belegnummer: 10000102
+Sachbearbeiter: Nina Rudy (MA Verkauf)
+
+E.5.3. Mengenkontrakt anlegen
+Belegnummer: 40000033
+Sachbearbeiter: Nina Rudy (MA Verkauf)
+
+E.5.4. Terminauftrag anlegen
+Belegnummer: (VMI) 93
+Sachbearbeiter: Nina Rudy (MA Verkauf)
+
+E.5.6. Lieferplan erstellen
+Kunde -> Auftrag -> Auftragsposition -> Einteilung
+Zweck:
+Einteilung -> Menge in Zeitraum einzuteilen
+keine Einteilung -> mehrere Auftragsposition mit Liefertermin einfügen
+
+Belegnummer: 30000031
+Sachbearbeiter: Nina Rudy (MA Verkauf)
+
+---------------------------------------------------
+
+E.6. Analyse
+E.6.1. Lagerumschlagshäufigkeit
+Sachbearbeiter: Noah Fischer (Ableitungsleiter)
+
+---------------------------------------------------
+
+F. Modul PP – Produktion
+F.1. Stammdaten anlegen
+F.1.1. Materialstammdaten anlegen
+Standardpreis: 858,06
+Sachbearbeiter: Lucas Weber (MA Produktion)
+
+F.1.2. Stückliste anlegen
+Sachbearbeiter: Lucas Weber (MA Produktion)
+
+F.1.3. Arbeitsplatz anlegen
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+F.1.4. Arbeitsplan erstellen
+Plangruppe: 50000027
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+F.1.4.1. Stücklistenpositionen den Arbeitsplanschritten zuordnen
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+
+
+F.2. Produktionsvorbereitung (Prozessablauf im Modul PP)
+F.2.1. Planung der Produktionskosten
+F.2.1.1. Fertigungsversion anpassen
+weiter bis zur äußeren Sicht -> sichern
+
+F.2.1.2. Einzelkalkulation anlegen
+
+F.2.2. Primärbedarf ermitteln
+F.2.2.1. Verbrauchswerte anlegen und Fertigungsversion anpassen
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+F.2.2.2. Absatzprognose erstellen
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+F.2.2.3. Primärbedarf ermitteln
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+F.2.3. Planauftrag generieren
+Sachbearbeiter: Norman Schmidt (Ableitungsleiter F/P)
+
+F.2.3.1. Bestandslisten anzeigen
+Sachbearbeiter: Norman Schmidt (Ableitungsleiter F/P)
+
+F.2.3.2. Anlegen eines Fertigungsauftrages aus dem Planauftrag
+Material: F80287
+Auftragsmenge: 236 EA
+Auftragsnummer: 1000068
+Sachbearbeiter: Norman Schmidt (Ableitungsleiter F/P)
+
+F.2.3.3. Auftrag freigeben
+Sachbearbeiter: Norman Schmidt (Ableitungsleiter F/P)
+
+F.2.3.4. Warenausgang buchen
+Belegnummer: 4900032265
+Sachbearbeiter: Felix Brandt (MA LAger ZE)
+
+F.2.4. Erzeugen der Folgebelege zum Fertigungsauftrag
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+F.2.5. Rückmeldung zum Fertigungsauftrag verbuchen
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+F.2.6. Wareneingang aus Fertigung verbuchen
+Belegnummer: 5000000228
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+F.2.7. Abrechnung des Fertigungsauftrages
+Abweichung -> Einzelnermittlung
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+F.2.8. Produktionskosten im Controlling
+Sachbearbeiter: Adam Lehman (Koordinator)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
